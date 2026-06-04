@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#counter{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#increment-btn{
+    border: none;
+    background-color: maroon;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#increment-btn:hover{
+    transform: scale(1.2);
+    background-color: blueviolet;
+}
